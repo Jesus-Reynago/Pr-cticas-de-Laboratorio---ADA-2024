@@ -5,7 +5,7 @@
 
 /* DECLARAR FUNCIOONES */
 void insertionsort(int b[], int n);
-void removeDuplicatesAndReorganize(int b[], int n, int *uniqueCount);
+void removeReorganize(int b[], int n, int *uniqueCount);
 
 /* FUNCION PARA ORDENAR UN AREEGLO POR INSERCION */
 void insertionsort(int b[], int n)
@@ -33,7 +33,7 @@ void insertionsort(int b[], int n)
 }
 
 /* FUNCION PARA ELIMINAR LOS DUPLICADOS Y REORGANIZAR EL ARREGLO */
-void removeDuplicatesAndReorganize(int b[], int n, int *uniqueCount)
+void removeReorganize(int b[], int n, int *uniqueCount)
 {
     int i, j;
     int duplicatesCount = 0;
@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
     insertionsort(b, n);
     
     /* ELIMINAR LOS DUPLICADOS Y REORGANIZAR EL ARREGLO */
-    removeDuplicatesAndReorganize(b, n, &uniqueCount);
+    removeReorganize(b, n, &uniqueCount);
     
     /* MOSTRAR LA CANTIDAD DE VALORES UNICOS */
     printf("Cantidad de valores únicos: %d\n", uniqueCount);
