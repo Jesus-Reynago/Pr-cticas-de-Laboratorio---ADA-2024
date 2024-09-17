@@ -1,1 +1,1 @@
-# Prácticas de Laboratorio - ADA2024
+# Prácticas de Laboratorio - ADA 2024
