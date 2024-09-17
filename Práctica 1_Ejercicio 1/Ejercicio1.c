@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* CREADOR: REYNAGO CERVANTES JESUS */
+
 /* DECLARAR FUNCIOONES */
 void insertionsort(int b[], int n);
 void removeDuplicatesAndReorganize(int b[], int n, int *uniqueCount);
